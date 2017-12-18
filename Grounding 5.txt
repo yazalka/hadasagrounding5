@@ -1,0 +1,72 @@
+1:
+
+
+var actors = ["Tom Hanks", "Leonardo di Caprio", " Jennifer Lawrence", "Daniel Radcliffe"];
+actors[0] = "Awesome " + actors[0];
+actors[1] = " Awesome " + actors[1];
+actors[2] = " Awesome " + actors[2];
+actors[3] = " Awesome " + actors[3];
+
+
+for (var i = 0; i < actors.length; i++) {
+
+	var print = console.log(actors[i]);
+	
+}
+document.write(actors);
+
+
+2:
+
+
+var  array1 = ["deliverables", "globalization", "C#", "sweeten", "AWS"]
+
+var  array2 = ["collateral", "enabling", "provision", "in the zone", "framework"]
+
+var  array3 = ["AJAX", "gating item(s)", "FREE", "close the loop", "re-prioritization"]
+
+var  array4 = ["at Stanford, we..", "re-branding", "user-oriented", "team building", "fast-track"]
+
+var array5 = ["culture change", "moving forward", "suite of tools", "empowerment", "regression test"]
+
+var rand = array1[Math.floor(Math.random() * array1.length) ] + " " +
+ array2[Math.floor(Math.random() * array2.length)] + " " +
+   array3[Math.floor(Math.random() * array3.length)] + " " +
+  	 array4[Math.floor(Math.random() * array4.length)] + " " +
+ 	   array5[Math.floor(Math.random() * array5.length)]; 
+
+
+document.write(rand);
+
+
+
+3: 
+
+var number1 = 15
+var number2 = 35
+var number3 = 55
+
+function maxnumber() {
+
+		if(number1 > number2 && number1 > number3 ) {
+
+		document.write(number1 + " is the biggest number ");
+
+	} else if (number2 > number1 && number2 > number3) {
+
+		document.write("the biggest number is " + number2);
+	}
+
+	else if (number3 > number1 && number3 > number2) {
+
+		document.write("the biggest number is " + number3);
+	}
+	
+	
+	
+
+		 
+
+}
+
+console.log(maxnumber())
